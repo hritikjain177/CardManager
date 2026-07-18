@@ -1,0 +1,11 @@
+Important files:
+App.tsx
+package.json
+app.json
+
+To run it locally:
+npm install
+npx expo start
+
+To export it:
+npx expo export --platform all

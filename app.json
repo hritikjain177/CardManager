@@ -1,0 +1,49 @@
+{
+  "expo": {
+    "name": "Card Manager",
+    "slug": "card-manager",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.hriti.cardmanager"
+    },
+    "android": {
+      "package": "com.hriti.cardmanager",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "edgeToEdgeEnabled": false,
+      "predictiveBackGestureEnabled": false,
+      "navigationBarColor": "#F4F7FB",
+      "statusBar": {
+        "backgroundColor": "#F4F7FB",
+        "barStyle": "dark-content",
+        "translucent": false
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "owner": "hritikjain177",
+    "extra": {
+      "eas": {
+        "projectId": "b0f831b0-9d3e-41ad-9f5c-8d4339e59c3d"
+      }
+    }
+  }
+}
